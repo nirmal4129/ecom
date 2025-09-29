@@ -8,6 +8,8 @@ import 'package:ecom/utils/theme/customthemes/text_field_theme.dart';
 import 'package:ecom/utils/theme/customthemes/text_theme.dart';
 import 'package:flutter/material.dart';
 
+import '../constants/colors.dart';
+
 class TAppTheme {
   TAppTheme._();
   static ThemeData lightTheme = ThemeData(
@@ -31,7 +33,7 @@ class TAppTheme {
     fontFamily: 'Poppins',
     brightness: Brightness.dark,
     primaryColor: Colors.blue,
-    scaffoldBackgroundColor: Colors.black,
+    scaffoldBackgroundColor: TColors.black,
     textTheme: TTextTheme.darkTextTheme,
     chipTheme: TChipTheme.darkChipTheme,
     appBarTheme: TAppBarTheme.darkAppBarTheme,
