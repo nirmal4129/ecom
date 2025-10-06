@@ -1,7 +1,5 @@
-import 'package:ecom/common/widgets/success_screen/success_screen.dart';
 import 'package:ecom/data/repository/authentication/authentication_repository.dart';
 import 'package:ecom/features/authentication/controllers/signup/verify_email.dart';
-import 'package:ecom/features/authentication/screens/login/login.dart';
 import 'package:ecom/utils/constants/image_strings.dart';
 import 'package:ecom/utils/constants/sizes.dart';
 import 'package:ecom/utils/constants/text_strings.dart';

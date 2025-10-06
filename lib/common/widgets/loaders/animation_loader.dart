@@ -45,7 +45,7 @@ class AnimationLoaderWidget extends StatelessWidget {
                     ),
                     onPressed: onActionPressed,
                     child: Text(
-                      actionText!??'',
+                      actionText??'',
                       style: Theme.of(
                         context,
                       ).textTheme.bodyMedium!.apply(color: TColors.light),

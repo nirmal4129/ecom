@@ -46,7 +46,7 @@ class ProductCardHorizontal extends StatelessWidget {
                       horizontal: TSizes.sm,
                       vertical: TSizes.xs,
                     ),
-                    backgroundColor: TColors.secondary.withOpacity(0.8),
+                    backgroundColor: TColors.secondary.withValues(alpha: 0.8),
                     child: Text(
                       '25%',
                       style: Theme.of(

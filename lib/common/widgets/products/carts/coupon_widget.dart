@@ -45,10 +45,10 @@ class CouponTextField extends StatelessWidget {
             child: ElevatedButton(
               style: ElevatedButton.styleFrom(
                   foregroundColor: isDark
-                      ? TColors.white.withOpacity(0.5)
-                      : TColors.dark.withOpacity(0.5),
-                  backgroundColor: TColors.grey.withOpacity(0.2),
-                  side: BorderSide(color: TColors.grey.withOpacity(0.1))
+                      ? TColors.white.withValues(alpha: 0.5)
+                      : TColors.dark.withValues(alpha: 0.5),
+                  backgroundColor: TColors.grey.withValues(alpha: 0.2),
+                  side: BorderSide(color: TColors.grey.withValues(alpha: 0.1))
               ),
               onPressed: () {},
               child: Text('Apply'),

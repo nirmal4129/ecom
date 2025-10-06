@@ -1,6 +1,5 @@
 import 'package:ecom/common/widgets/brands/brand_card.dart';
 import 'package:ecom/common/widgets/layout/grid_layout.dart';
-import 'package:ecom/common/widgets/products/sortable/sortable_products.dart';
 import 'package:ecom/common/widgets/texts/section_heading.dart';
 import 'package:ecom/features/shop/screens/brands/brand_products.dart';
 import 'package:flutter/material.dart';

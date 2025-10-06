@@ -19,7 +19,7 @@ class SingleAddress extends StatelessWidget {
       width: double.infinity,
       padding: EdgeInsets.all(TSizes.md),
       showBorder: true,
-      backgroundColor: isSelectedAddress?TColors.primary.withOpacity(0.5):Colors.transparent,
+      backgroundColor: isSelectedAddress?TColors.primary.withValues(alpha: 0.5):Colors.transparent,
       borderColor: isSelectedAddress?Colors.transparent:isDark?TColors.darkerGrey:TColors.grey,
       margin: EdgeInsets.only(bottom: TSizes.spaceBtwItems),
       child: Stack(

@@ -48,6 +48,7 @@ class SignupController extends GetxController {
 
       // privacy policy
       if (!toggleCheckBox.value) {
+        FullScreenLoader.stopLoading();
         TLoaders.warningSnackBar(
           title: 'Accept Privacy Policy!',
           message: 'Accept Privacy Policy & Terms of Use to create an account',
