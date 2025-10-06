@@ -10,6 +10,9 @@ class TColors {
     colors: [Color(0xFFff9a9e), Color(0xFFfad0c4), Color(0xFFfad0c4)],
   );
 
+  static const Color dashboardAppbarBackground = Color(0xFF4b68ff);
+
+
   // app basic colors
   static const Color primary = Color(0xFF4b68ff);
   static const Color secondary = Color(0xFFFFE24B);

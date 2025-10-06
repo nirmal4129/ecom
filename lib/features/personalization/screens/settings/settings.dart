@@ -11,6 +11,7 @@ import 'package:get/get.dart';
 
 import '../../../../common/widgets/custom_shapes/containers/primary_header_container.dart';
 import '../../../../common/widgets/list_tiles/profile_tile.dart';
+import '../../../../data/repository/authentication/authentication_repository.dart';
 import '../Profile/profile.dart';
 
 class SettingsScreen extends StatelessWidget {
@@ -134,7 +135,7 @@ class SettingsScreen extends StatelessWidget {
                   SizedBox(
                     width: double.infinity,
                     child: OutlinedButton(
-                      onPressed: () {},
+                      onPressed:()=>AuthenticationRepository.instance.logout(),
                       child: const Text('Logout'),
                     ),
                   ),

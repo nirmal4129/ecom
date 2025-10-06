@@ -28,6 +28,8 @@ class TImages {
       'assets/images/animations/sammy-line-man-receives-a-mail.png';
   static const String successIllustration =
       'assets/images/animations/sammy-line-success.png';
+  static const String loadingDocker =
+      'assets/images/animations/dockeranimation.json';
 
   // -- Category Icons
   static const String sportIcon =
